@@ -20,9 +20,11 @@ class MovieCard extends React.Component {
 
 class MovieCard extends React.Component {
   render() {
+    const { movie } = this.props;
+    const { title, subtitle, storyLine, imagePath, rating } = movie;
     return (
       <section>
-        <p>teste</p>
+        <img src={ imagePath } alt={ title } />
       </section>
 >>>>>>> 733ccde (Resolve o requisito 4)
     );
