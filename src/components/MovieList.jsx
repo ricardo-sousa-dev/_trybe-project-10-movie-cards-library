@@ -28,7 +28,7 @@ class MovieList extends React.Component {
 =======
     return (
       <div>
-        {movies.map((movie) => <MovieCard Key={ movie.title } movie={ movie } />)}
+        {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
       </div>
 >>>>>>> 733ccde (Resolve o requisito 4)
     );
