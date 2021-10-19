@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react';
 
 class Header extends React.Component {
@@ -16,3 +17,5 @@ export default Header;
 // implement Header component here
 // first project in React
 >>>>>>> ce49938 (Iniciando o projeto.)
+=======
+>>>>>>> d473a51 (Resolve conflitos)
