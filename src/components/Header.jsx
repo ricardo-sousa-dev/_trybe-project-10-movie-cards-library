@@ -9,12 +9,17 @@ class Header extends React.Component {
   render() {
     return (
 <<<<<<< HEAD
+<<<<<<< HEAD
       <header className="movie-card-header">
         <h1 className="page-title">Movie Cards Library</h1>
 =======
       <header>
         <h1>Movie Cards Library</h1>
 >>>>>>> 251b8ae (Resolve os requisitos 1 e 2)
+=======
+      <header classeName="movie-card-header">
+        <h1 classeName="page-title">Movie Cards Library</h1>
+>>>>>>> 4952764 (Resolve o requisito 3)
       </header>
     );
   }
