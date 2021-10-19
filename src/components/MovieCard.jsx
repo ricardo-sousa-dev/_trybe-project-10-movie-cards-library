@@ -3,6 +3,7 @@ import React from 'react';
 <<<<<<< HEAD
 import PropTypes from 'prop-types';
 import Rating from './Rating';
+<<<<<<< HEAD
 
 class MovieCard extends React.Component {
   render() {
@@ -21,17 +22,20 @@ class MovieCard extends React.Component {
 =======
 import PropTypes from 'prop-types';
 >>>>>>> 10e90c6 (Resolve o requisito 11)
+=======
+>>>>>>> fdac108 (Resolve o requisito 13 e 14)
 
 class MovieCard extends React.Component {
   render() {
     const { movie } = this.props; // linha 10 MovieList
-    const { imagePath, title, subtitle, storyline } = movie;
+    const { imagePath, title, subtitle, storyline, rating } = movie;
     return (
       <section>
         <img src={ imagePath } alt={ title } />
         <h4>{ title }</h4>
         <h5>{ subtitle }</h5>
         <p>{ storyline }</p>
+        <Rating rating={ rating } />
       </section>
 >>>>>>> 733ccde (Resolve o requisito 4)
     );
@@ -49,9 +53,13 @@ MovieCard.propTypes = {
     storyline: PropTypes.string,
     imagePath: PropTypes.string,
 <<<<<<< HEAD
+<<<<<<< HEAD
     rating: PropTypes.number,
 =======
 >>>>>>> 10e90c6 (Resolve o requisito 11)
+=======
+    rating: PropTypes.number,
+>>>>>>> fdac108 (Resolve o requisito 13 e 14)
   }),
 };
 
