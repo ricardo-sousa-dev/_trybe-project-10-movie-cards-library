@@ -1,13 +1,19 @@
 import React from 'react';
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
 <<<<<<< HEAD
 import MovieCard from './MovieCard';
 =======
 >>>>>>> 4952764 (Resolve o requisito 3)
+=======
+import PropTypes from 'prop-types'; // biblioteca
+import MovieCard from './MovieCard';
+>>>>>>> 733ccde (Resolve o requisito 4)
 
 class MovieList extends React.Component {
   render() {
     const { movies } = this.props;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     return (
@@ -19,6 +25,12 @@ class MovieList extends React.Component {
     return (
       <p>teste</p>
 >>>>>>> 4952764 (Resolve o requisito 3)
+=======
+    return (
+      <div>
+        {movies.map((movie) => <MovieCard Key={ movie.title } movie={ movie } />)}
+      </div>
+>>>>>>> 733ccde (Resolve o requisito 4)
     );
   }
 }
