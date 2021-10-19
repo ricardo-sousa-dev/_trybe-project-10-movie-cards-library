@@ -1,5 +1,6 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
 import Rating from './Rating';
 
@@ -17,11 +18,14 @@ class MovieCard extends React.Component {
         </section>
       </div>
 =======
+=======
+import PropTypes from 'prop-types';
+>>>>>>> 10e90c6 (Resolve o requisito 11)
 
 class MovieCard extends React.Component {
   render() {
     const { movie } = this.props; // linha 10 MovieList
-    const { imagePath, title, subtitle, storyline} = movie;
+    const { imagePath, title, subtitle, storyline } = movie;
     return (
       <section>
         <img src={ imagePath } alt={ title } />
@@ -35,13 +39,19 @@ class MovieCard extends React.Component {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10e90c6 (Resolve o requisito 11)
 MovieCard.propTypes = {
   movie: PropTypes.shape({
     title: PropTypes.string,
     subtitle: PropTypes.string,
     storyline: PropTypes.string,
     imagePath: PropTypes.string,
+<<<<<<< HEAD
     rating: PropTypes.number,
+=======
+>>>>>>> 10e90c6 (Resolve o requisito 11)
   }),
 };
 
@@ -49,6 +59,9 @@ MovieCard.defaultProps = {
   movie: {},
 };
 
+<<<<<<< HEAD
 =======
 >>>>>>> 733ccde (Resolve o requisito 4)
+=======
+>>>>>>> 10e90c6 (Resolve o requisito 11)
 export default MovieCard;
