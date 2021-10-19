@@ -1,7 +1,6 @@
-// Projeto realizado com a ajuda das mulheres da Turma 13 - Tribo A - Aline Eiko Hoshino, Débora Teodorico, Elaine Moreira, Heleny Flávia, Isabella Antunes, Jéssica Queiroz, Júlia Baptista, Lanai Conceição, Luiza Antiques, Sthefany Caroline, Vanessa Rios e tambem Pedro Delicoli.
-
 import React from 'react';
 import './App.css';
+<<<<<<< HEAD
 <<<<<<< HEAD
 import data from './data';
 =======
@@ -9,10 +8,13 @@ import data from './data';
 import Header from './components/Header';
 import MovieList from './components/MovieList';
 import Movies from './data';
+=======
+>>>>>>> 1b59841 (Revert "[Jaqueline Silva] Project Movie Cards Library")
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <Header />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +25,10 @@ function App() {
 =======
       <MovieList movies={ Movies } />
 >>>>>>> 733ccde (Resolve o requisito 4)
+=======
+      {/* Sua implementação deve ficar aqui. Remova essas duas linhas e mão na massa */}
+      Hora de codar! 🚀✍️👨‍💻👩‍💻💪
+>>>>>>> 1b59841 (Revert "[Jaqueline Silva] Project Movie Cards Library")
     </div>
   );
 }

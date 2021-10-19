@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,3 +62,6 @@ Rating.defaultProps = {
 
 >>>>>>> fdac108 (Resolve o requisito 13 e 14)
 export default Rating;
+=======
+// implement Rating component here
+>>>>>>> 1b59841 (Revert "[Jaqueline Silva] Project Movie Cards Library")

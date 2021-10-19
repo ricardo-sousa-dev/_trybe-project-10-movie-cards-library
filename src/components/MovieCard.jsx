@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,3 +78,6 @@ MovieCard.defaultProps = {
 =======
 >>>>>>> 10e90c6 (Resolve o requisito 11)
 export default MovieCard;
+=======
+// implement MovieCard component here
+>>>>>>> 1b59841 (Revert "[Jaqueline Silva] Project Movie Cards Library")

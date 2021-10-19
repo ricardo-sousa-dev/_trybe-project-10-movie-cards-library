@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 251b8ae (Resolve os requisitos 1 e 2)
 import React from 'react';
@@ -35,3 +36,5 @@ export default Header;
 >>>>>>> d473a51 (Resolve conflitos)
 =======
 >>>>>>> 251b8ae (Resolve os requisitos 1 e 2)
+=======
+>>>>>>> 1b59841 (Revert "[Jaqueline Silva] Project Movie Cards Library")

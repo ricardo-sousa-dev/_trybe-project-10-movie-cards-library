@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 <<<<<<< HEAD
 import PropTypes from 'prop-types';
@@ -57,3 +58,6 @@ export default MovieList;// implement MovieList component here
 
 export default MovieList;
 >>>>>>> 4952764 (Resolve o requisito 3)
+=======
+// implement MovieList component here
+>>>>>>> 1b59841 (Revert "[Jaqueline Silva] Project Movie Cards Library")
